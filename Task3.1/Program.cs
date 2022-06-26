@@ -33,8 +33,10 @@ namespace Task3._1
                 {
                     Console.Write(arrayOfNumbers[i, j] + " ");
                 }
+                
                 Console.WriteLine();
             }
+            
             Console.WriteLine($"\nСумма второй строки: {sumOfSecondLine}, Произведение первого столбика: {productOfFirstColumn}\n");
         }
     }
